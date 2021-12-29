@@ -19,6 +19,8 @@
 		8826E705277D00ED006233A9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E700277D00ED006233A9 /* Raleway-Regular.ttf */; };
 		8826E706277D00ED006233A9 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */; };
 		8826E707277D00ED006233A9 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */; };
+		8826E70B277D0305006233A9 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826E70A277D0305006233A9 /* Onboarding.swift */; };
+		8826E70C277D0305006233A9 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826E70A277D0305006233A9 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,7 @@
 		8826E700277D00ED006233A9 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
 		8826E708277D0108006233A9 /* Bizzman-Ecom--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bizzman-Ecom--iOS--Info.plist"; sourceTree = "<group>"; };
+		8826E70A277D0305006233A9 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		8826E709277D016A006233A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8826E70A277D0305006233A9 /* Onboarding.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8826E70B277D0305006233A9 /* Onboarding.swift in Sources */,
 				8826E6F2277CFE8A006233A9 /* ContentView.swift in Sources */,
 				8826E6F0277CFE8A006233A9 /* Bizzman_EcomApp.swift in Sources */,
 			);
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8826E70C277D0305006233A9 /* Onboarding.swift in Sources */,
 				8826E6F3277CFE8A006233A9 /* ContentView.swift in Sources */,
 				8826E6F1277CFE8A006233A9 /* Bizzman_EcomApp.swift in Sources */,
 			);
