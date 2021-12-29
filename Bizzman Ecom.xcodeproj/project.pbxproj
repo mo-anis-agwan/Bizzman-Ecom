@@ -13,6 +13,12 @@
 		8826E6F3277CFE8A006233A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826E6E1277CFE89006233A9 /* ContentView.swift */; };
 		8826E6F4277CFE8A006233A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8826E6E2277CFE8A006233A9 /* Assets.xcassets */; };
 		8826E6F5277CFE8A006233A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8826E6E2277CFE8A006233A9 /* Assets.xcassets */; };
+		8826E702277D00ED006233A9 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E6FF277D00ED006233A9 /* Raleway-Bold.ttf */; };
+		8826E703277D00ED006233A9 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E6FF277D00ED006233A9 /* Raleway-Bold.ttf */; };
+		8826E704277D00ED006233A9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E700277D00ED006233A9 /* Raleway-Regular.ttf */; };
+		8826E705277D00ED006233A9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E700277D00ED006233A9 /* Raleway-Regular.ttf */; };
+		8826E706277D00ED006233A9 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */; };
+		8826E707277D00ED006233A9 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,10 @@
 		8826E6E7277CFE8A006233A9 /* Bizzman Ecom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bizzman Ecom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8826E6ED277CFE8A006233A9 /* Bizzman Ecom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bizzman Ecom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8826E6EF277CFE8A006233A9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8826E6FF277D00ED006233A9 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		8826E700277D00ED006233A9 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		8826E708277D0108006233A9 /* Bizzman-Ecom--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bizzman-Ecom--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 		8826E6DA277CFE89006233A9 = {
 			isa = PBXGroup;
 			children = (
+				8826E708277D0108006233A9 /* Bizzman-Ecom--iOS--Info.plist */,
 				8826E6DF277CFE89006233A9 /* Shared */,
 				8826E6EE277CFE8A006233A9 /* macOS */,
 				8826E6E8277CFE8A006233A9 /* Products */,
@@ -54,6 +65,8 @@
 		8826E6DF277CFE89006233A9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8826E709277D016A006233A9 /* View */,
+				8826E6FE277D0089006233A9 /* Fonts */,
 				8826E6E0277CFE89006233A9 /* Bizzman_EcomApp.swift */,
 				8826E6E1277CFE89006233A9 /* ContentView.swift */,
 				8826E6E2277CFE8A006233A9 /* Assets.xcassets */,
@@ -76,6 +89,23 @@
 				8826E6EF277CFE8A006233A9 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		8826E6FE277D0089006233A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8826E6FF277D00ED006233A9 /* Raleway-Bold.ttf */,
+				8826E700277D00ED006233A9 /* Raleway-Regular.ttf */,
+				8826E701277D00ED006233A9 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8826E709277D016A006233A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8826E6F4277CFE8A006233A9 /* Assets.xcassets in Resources */,
+				8826E706277D00ED006233A9 /* Raleway-SemiBold.ttf in Resources */,
+				8826E704277D00ED006233A9 /* Raleway-Regular.ttf in Resources */,
+				8826E702277D00ED006233A9 /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8826E6F5277CFE8A006233A9 /* Assets.xcassets in Resources */,
+				8826E707277D00ED006233A9 /* Raleway-SemiBold.ttf in Resources */,
+				8826E705277D00ED006233A9 /* Raleway-Regular.ttf in Resources */,
+				8826E703277D00ED006233A9 /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +350,7 @@
 				DEVELOPMENT_TEAM = L23WY88RCA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bizzman-Ecom--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +381,7 @@
 				DEVELOPMENT_TEAM = L23WY88RCA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bizzman-Ecom--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
