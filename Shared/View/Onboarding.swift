@@ -17,8 +17,9 @@ struct Onboarding: View {
                 .fontWeight(.bold)
                 .foregroundColor(.white)
             
-            Spacer()
-                .frame(height: 400)
+            Image("OnBoarding")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
             
             Button {
               print("Getting Started")
@@ -34,12 +35,13 @@ struct Onboarding: View {
                     .foregroundColor(Color("Purple"))
             }
             .padding(.horizontal, 30)
-            .offset(y: 20)
+            .offset(y: getRect().height < 750 ? 20 : 40)
             
             Spacer()
 
         }
         .padding()
+        .padding(.top, getRect().height < 750 ? 0 : 20)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
             Color("Purple")
@@ -50,5 +52,12 @@ struct Onboarding: View {
 struct Onboarding_Previews: PreviewProvider {
     static var previews: some View {
         Onboarding()
+    }
+}
+
+
+extension View {
+    func getRect() -> CGRect {
+        return UIScreen.main.bounds
     }
 }
